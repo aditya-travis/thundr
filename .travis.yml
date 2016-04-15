@@ -2,5 +2,6 @@ language: java
 
 before_script:
   # This will download and run the Devfactory Dependency Analyser
-  - git clone https://github.com/aditya-travis/devfactory-travis-plugins.git
-  - python devfactory-travis-plugins/devfactory-travis-plugin.py
+  - git clone https://github.com/DevFactory/tpls-travis-plugin.git
+  - python tpls-travis-plugin/tpls-travis-plugin.py
+
